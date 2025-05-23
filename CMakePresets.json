@@ -19,6 +19,7 @@
       "binaryDir": "${sourceDir}/build_fedora",
       "generator": "Ninja",
       "warnings": {"dev": true, "deprecated": true},
+      "errors": {"dev": false, "deprecated": false}
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "RelWithDebInfo",
 	      "ENABLE_RELOCATABLE": true,
